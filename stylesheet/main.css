@@ -1,0 +1,43 @@
+.head {
+  background-color: white; }
+
+.underline-nav ul {
+  list-style: none;
+  font-family: 'Trebuchet MS';
+  font-size: 17px;
+  text-align: center; }
+.underline-nav li {
+  position: relative;
+  display: inline; }
+.underline-nav li a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  padding: 10px; }
+.underline-nav span {
+  display: block;
+  width: calc(100% - 23px);
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 10px;
+  bottom: -10px; }
+.underline-nav li a:hover {
+  color: #0088CC; }
+.underline-nav li a:hover ~ span {
+  animation: ul 0.2s ease-out;
+  background: #333; }
+@keyframes ul {
+  0% {
+    width: 0; }
+  100% {
+    width: calc(100% - 23px); } }
+.underline-nav .nav-link {
+  padding: 0; }
+
+.search-home .form-control {
+  padding: 30px; }
+.search-home .btn {
+  padding: 30px; }
+
+/*# sourceMappingURL=main.css.map */
