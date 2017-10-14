@@ -8,14 +8,7 @@
 	    <meta name="description" content="">
 	    <meta name="author" content="">
 
-		<!--CSS -->
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    	<link rel="stylesheet" href="stylesheet/main.css">
-    	
-    	<!--JS-->
-    	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<?php require('head.php'); ?>
 
 	</head>
 
@@ -45,17 +38,35 @@
 					</div> 
 				</div>
 				
-				<div class="row d-sm-flex justify-content-center" style="margin:200px 0;">
-					<form class="search-home form-inline">
-					  <label class="sr-only" for="inlineFormInput">University Name</label>
-					  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="University Name">
+				<div class="headline row d-sm-flex" >
+					<h1 class="row headline-text">APPLY NOW.</h1>
+					<br><p class="row headline-description">Start your journey to the University with an Application for Admission</p>
 
-					  <label class="sr-only" for="inlineFormInput">Region</label>
-					  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Region">
-
-					  <label class="sr-only" for="inlineFormInput">Major</label>
-					  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Major">
-					  
+					<form class="row justify-content-center main-search">
+					  <div class="form-group">
+					    <label for="uni-name" class="sr-only">University Name</label>
+					    <input type="text" class="form-control" id="uni-name" placeholder="University Name">
+					  </div>
+					  <div class="form-group">
+					  <select class="form-control" style=" height:100px; padding: 0 50px;">
+					  <option value="" disabled selected style="display: none;">University Area</option>
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					</select>
+					  </div>
+					    <div class="form-group">
+					  <select class="form-control" style=" height:100px; padding: 0 50px;">
+					  <option value="" disabled selected style="display: none;">Selected Major</option>
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					</select>
+					    </div>
 					  <button type="submit" class="btn btn-primary">Find</button>
 					</form>
 				</div>
@@ -64,84 +75,148 @@
 
 		<main>
 			<section class="container">
-				<h2>Popular Universities</h2>
+				<h2 class="section-title">Popular Universities</h2>
 				<br>
 				<div class="row">
 					<div class="col-md-3">
-						<div class="card">
-						  <img class="card-img-top" src="http://www.canberra.edu.au/__data/assets/image/0018/63441/ucic03.jpg" alt="Card image cap">
-						  <div class="card-block">
-						    <h4 class="card-title">Bina Nusantara</h4>
-						    <a href="#" class="btn btn-primary d-sm-flex ">Go somewhere</a>
-						  </div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="card">
-						  <img class="card-img-top" src="http://www.canberra.edu.au/__data/assets/image/0018/63441/ucic03.jpg" alt="Card image cap">
-						  <div class="card-block">
-						    <h4 class="card-title">Multimedia</h4>
-						    <a href="#" class="btn btn-primary d-sm-flex ">Go somewhere</a>
-						  </div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="card">
-						  <img class="card-img-top" src="http://www.canberra.edu.au/__data/assets/image/0018/63441/ucic03.jpg" alt="Card image cap">
-						  <div class="card-block">
-						    <h4 class="card-title">Trisakti</h4>
-						    <a href="#" class="btn btn-primary d-sm-flex ">Go somewhere</a>
-						  </div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="card">
-						  <img class="card-img-top" src="http://www.canberra.edu.au/__data/assets/image/0018/63441/ucic03.jpg" alt="Card image cap">
-						  <div class="card-block">
-						    <h4 class="card-title">Atmajaya</h4>
-						    <a href="#" class="btn btn-primary d-sm-flex ">Go somewhere</a>
-						  </div>
-						</div>
-					</div>
+                        <div class="card">
+                            <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                            <img src="https://3.bp.blogspot.com/-bAsTyYC8U80/VtLZRKN6OlI/AAAAAAAABjY/kAoljiMALkQ/s400/material%2Bnavbar.jpg" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"> Material Design Responsive Menu
+                                  </a>
+                                </h4>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="https://codepen.io/wisnust10/full/ZWERZK/" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                            <img src="https://3.bp.blogspot.com/-bAsTyYC8U80/VtLZRKN6OlI/AAAAAAAABjY/kAoljiMALkQ/s400/material%2Bnavbar.jpg" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"> Material Design Responsive Menu
+                                  </a>
+                                </h4>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="https://codepen.io/wisnust10/full/ZWERZK/" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                            <img src="https://3.bp.blogspot.com/-bAsTyYC8U80/VtLZRKN6OlI/AAAAAAAABjY/kAoljiMALkQ/s400/material%2Bnavbar.jpg" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"> Material Design Responsive Menu
+                                  </a>
+                                </h4>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="https://codepen.io/wisnust10/full/ZWERZK/" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                            <img src="https://3.bp.blogspot.com/-bAsTyYC8U80/VtLZRKN6OlI/AAAAAAAABjY/kAoljiMALkQ/s400/material%2Bnavbar.jpg" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"> Material Design Responsive Menu
+                                  </a>
+                                </h4>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="https://codepen.io/wisnust10/full/ZWERZK/" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 				</div>
 			</section>
 			
 			<section class="container">
+				<h2 class="section-title">Popular Major</h2>
 				<br>
-				<br>
-				<h2>Popular Major</h2>
-				<br>
+				
 				<div class="row">
 					<div class="col-md-3">
-						<div class="card text-center">
-						  <div class="card-block">
-						    <h4 class="card-title" style="padding: 80px 20px;">Special title treatment</h4>
-						  </div>
-						</div>
+						<a 
+							class="caption" 
+							href="http://cargocollective.com/jaimemartinez/Illustration" 
+							data-title="ENGINEERING" 
+							data-description="Field of major that requires lots of technical practive and strong quantitive skills">
+
+							<img src="https://tympanus.net/Tutorials/PseudoElementsImageCaptions/images/2.jpg" alt="Illustration of Smug Eagle">
+							
+						</a>
 					</div>
 					<div class="col-md-3">
-						<div class="card text-center">
-						  <div class="card-block">
-						    <h4 class="card-title" style="padding: 80px 20px;">Special title treatment</h4>
-						  </div>
-						</div>
+						<a 
+							class="caption" 
+							href="http://cargocollective.com/jaimemartinez/Illustration" 
+							data-title="ENGINEERING" 
+							data-description="Field of major that requires lots of technical practive and strong quantitive skills">
+
+							<img src="https://tympanus.net/Tutorials/PseudoElementsImageCaptions/images/2.jpg" alt="Illustration of Smug Eagle">
+							
+						</a>
 					</div>
 					<div class="col-md-3">
-						<div class="card text-center">
-						  <div class="card-block">
-						    <h4 class="card-title" style="padding: 80px 20px;">Special title treatment</h4>
-						  </div>
-						</div>
+						<a 
+							class="caption" 
+							href="http://cargocollective.com/jaimemartinez/Illustration" 
+							data-title="ENGINEERING" 
+							data-description="Field of major that requires lots of technical practive and strong quantitive skills">
+
+							<img src="https://tympanus.net/Tutorials/PseudoElementsImageCaptions/images/2.jpg" alt="Illustration of Smug Eagle">
+							
+						</a>
 					</div>
 					<div class="col-md-3">
-						<div class="card text-center">
-						  <div class="card-block">
-						    <h4 class="card-title" style="padding: 80px 20px;">Special title treatment</h4>
-						  </div>
-						</div>
+						<a 
+							class="caption" 
+							href="http://cargocollective.com/jaimemartinez/Illustration" 
+							data-title="ENGINEERING" 
+							data-description="Field of major that requires lots of technical practive and strong quantitive skills">
+
+							<img src="https://tympanus.net/Tutorials/PseudoElementsImageCaptions/images/2.jpg" alt="Illustration of Smug Eagle">
+							
+						</a>
 					</div>
-					
 				</div>
+			</section>
+
+			<section class="container">
+				<h2 class="section-title">Single Web Admission</h2>
+				<h4>Get all the possibility from a single website</h4>
+				<p>Search</p>
+				<p>Read</p>
+				<p>Apply</p>
+			</section>
+
+			<section class="container">
+				<h2 class="section-title">Sounds interesting?</h2>
+				<p> Try This NOW! </p>
 			</section>
 		</main>
 
