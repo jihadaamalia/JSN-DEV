@@ -43,6 +43,9 @@ main{
 			}
 		}
 		&:nth-child(4) {
+			background: $citrus;
+		}
+		&:nth-child(5) {
 			padding-top: 50px;
 			padding-bottom: 50px;
 			background: $true-white;
@@ -95,6 +98,7 @@ footer{
 	a {
 	    color: $blueberry;
 	    text-decoration: none;
+		line-height: 40px;
 	}
 	a:hover, a:focus {
 	    text-decoration: none;
@@ -295,7 +299,9 @@ footer{
     padding-bottom: 20px;
     padding-top: 80px;
 }
-
+.more{
+	padding-bottom: 20px;
+}
 .desc {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
