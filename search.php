@@ -65,6 +65,16 @@
       <div class="container demo-3">
 
         <ul class="grid cs-style-3">
+          <li>
+          <figure>
+            <img src="asset/images/binus.png" alt="img04">
+            <figcaption>
+              <h5>Universitas Binus</h5>
+              <span>Jacob Cummings</span>
+              <a href="view.php">Selengkapnya</a>
+            </figcaption>
+          </figure>
+        </li>
         <li>
           <figure>
             <img src="asset/images/binus.png" alt="img04">
