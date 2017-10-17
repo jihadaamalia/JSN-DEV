@@ -211,7 +211,7 @@
 			</section>
 
 			<section class="timeline">
-				<h2 class="call-text">How Do We Work?</h2>
+				<center><h2 class="call-text">How Do We Work?</h2></center>
 				<ol>
 					<li>
 						<div>
