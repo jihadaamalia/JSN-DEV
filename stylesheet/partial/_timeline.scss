@@ -1,11 +1,15 @@
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
+  
+  @media only screen and (max-width : 480px) {
+    white-space: normal;
+  }
 }
 
 .timeline ol {
   font-size: 0;
-  width: 100vw;
+  width: 100%;
   padding: 250px 0;
   transition: all 1s;
 }
@@ -19,10 +23,11 @@
   background: #fff;
 }
 
-.timeline ol li:last-child {
-  width: 270px;
+.timeline ol li { 
+  &:last-child {
+    width: -webkit-fill-available;
+  }
 }
-
 .timeline ol li:not(:first-child) {
   margin-left: 14px;
 }
@@ -82,12 +87,43 @@
   border-color: transparent transparent transparent white;
 }
 
+.timeline {
+  &-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic; 
+    font-size: 50px;
+    color: #333;
+    line-height:70px;
+    margin-top: 40px;
+  }
+  &-title{
+    font-weight: 600;
+  }
+}
+
+
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 599px) {
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+  .timeline ol li {
+    width: 110px;
+    &:first-child {
+      width: 90px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px) {
   .timeline ol,
   .timeline ol li {
     width: auto;
+    &:first-child {
+      width: auto;
+    }
   }
 
   .timeline ol {
@@ -138,5 +174,11 @@
   .timeline ol li:not(:last-child)::after,
   .timeline .arrows {
     display: none;
+  }
+
+  .timeline {
+    &-text {
+      font-size: 24px;
+    }
   }
 }

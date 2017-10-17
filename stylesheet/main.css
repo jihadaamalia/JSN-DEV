@@ -1,14 +1,11 @@
 @charset "UTF-8";
 /*BACKGROUND*/
 header section {
-  /* Small Devices, Tablets */
-  /* Medium Devices, Desktops */ }
+  height: 700px;
+  /* Small Devices, Tablets */ }
   @media only screen and (max-width: 768px) {
     header section {
-      height: 900px; } }
-  @media only screen and (min-width: 768px) {
-    header section {
-      height: 100vh; } }
+      height: 500px; } }
   header section:nth-child(1) {
     background: linear-gradient(rgba(255, 255, 255, 0.6), white), url(../asset/images/graduation.jpg); }
 
@@ -21,6 +18,9 @@ main section:nth-child(3) {
   background: #DCC7AA; }
   main section:nth-child(3) .padding-single-web {
     padding: 30px 0; }
+    @media only screen and (max-width: 480px) {
+      main section:nth-child(3) .padding-single-web {
+        padding-top: 0; } }
 main section:nth-child(4) {
   background: #F7C331; }
 main section:nth-child(5) {
@@ -29,8 +29,8 @@ main section:nth-child(5) {
   background: white; }
 
 footer section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background: #f0f2f4; }
 
 #myFooter {
@@ -41,7 +41,7 @@ footer section {
     padding-bottom: 3px;
     text-align: center; }
   #myFooter .row {
-    margin-bottom: 60px; }
+    margin-bottom: 20px; }
   #myFooter .navbar-brand {
     margin-top: 45px;
     height: 65px; }
@@ -135,8 +135,6 @@ footer section {
   padding: 0; }
 
 .main-search {
-  /* Extra Small Devices, Phones */
-  /* Small Devices, Tablets */
   /* Medium Devices, Desktops */
   /* Large Devices, Wide Screens */ }
   .main-search input, .main-search button, .main-search select {
@@ -190,7 +188,15 @@ footer section {
   padding-top: 80px; }
 
 .more {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  color: #333; }
+  .more:hover, .more:focus, .more:active {
+    color: #F7C331;
+    text-decoration: none; }
 
 .desc {
   font-family: 'Montserrat', sans-serif;
@@ -200,6 +206,9 @@ footer section {
 
 .single-web-section {
   background: no-repeat url(../img/magnifying-glass-finder.svg) 50%; }
+  @media only screen and (max-width: 480px) {
+    .single-web-section {
+      background: none; } }
 .single-web-title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -220,11 +229,11 @@ footer section {
 .single-web-desc {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-style: italic;
+  font-style: normal;
   font-size: 18px;
   color: #333;
   padding: 0px 0px 0px 30px;
-  line-height: 18px; }
+  line-height: 22px; }
 
 .call-text {
   font-family: 'Montserrat', sans-serif;
@@ -253,7 +262,54 @@ footer section {
     background-color: #F7C331;
     border-color: #F7C331; }
 
-/* BACKGROUND */
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+  .headline {
+    margin-top: 80px;
+    margin-bottom: 80px; }
+    .headline-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 50px;
+      font-weight: 900;
+      font-style: italic;
+      margin: 20px 0;
+      color: #F7C331; }
+    .headline-description {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 20px;
+      margin-bottom: 30px; }
+
+  .section-title {
+    font-size: 24px;
+    padding-top: 20px; }
+
+  .more {
+    font-size: 14px;
+    padding-bottom: 26px; }
+
+  .grid {
+    max-width: unset; }
+
+  .single-web-title {
+    font-size: 24px;
+    line-height: 40px; }
+  .single-web-sub {
+    font-size: 20px;
+    line-height: 24px; }
+  .single-web-desc {
+    font-size: 16px;
+    line-height: 22px; }
+
+  .call-text {
+    font-size: 24px;
+    line-height: 30px; }
+  .call-button {
+    font-size: 18px; } }
 /*UNI CARD */
 .grid {
   padding: 0;
@@ -380,13 +436,26 @@ footer section {
 .caption:hover::after {
   opacity: 1; }
 
+@media only screen and (max-width: 768px) {
+  .slide-ver {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden; }
+    .slide-ver-container {
+      width: 1200px; }
+
+  .grid {
+    max-width: unset; } }
 .timeline {
   white-space: nowrap;
   overflow-x: hidden; }
+  @media only screen and (max-width: 480px) {
+    .timeline {
+      white-space: normal; } }
 
 .timeline ol {
   font-size: 0;
-  width: 100vw;
+  width: 100%;
   padding: 250px 0;
   transition: all 1s; }
 
@@ -399,7 +468,7 @@ footer section {
   background: #fff; }
 
 .timeline ol li:last-child {
-  width: 270px; }
+  width: -webkit-fill-available; }
 
 .timeline ol li:not(:first-child) {
   margin-left: 14px; }
@@ -452,12 +521,32 @@ footer section {
   border-width: 8px 0 0 8px;
   border-color: transparent transparent transparent white; }
 
+.timeline-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 50px;
+  color: #333;
+  line-height: 70px;
+  margin-top: 40px; }
+.timeline-title {
+  font-weight: 600; }
+
 /* GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 599px) {
+ÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇô */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+  .timeline ol li {
+    width: 110px; }
+    .timeline ol li:first-child {
+      width: 90px; } }
+@media screen and (max-width: 768px) {
   .timeline ol,
   .timeline ol li {
     width: auto; }
+    .timeline ol:first-child,
+    .timeline ol li:first-child {
+      width: auto; }
 
   .timeline ol {
     padding: 0;
@@ -498,6 +587,9 @@ footer section {
   .timeline ol li:nth-last-child(2) div::before,
   .timeline ol li:not(:last-child)::after,
   .timeline .arrows {
-    display: none; } }
+    display: none; }
+
+  .timeline-text {
+    font-size: 24px; } }
 
 /*# sourceMappingURL=main.css.map */
