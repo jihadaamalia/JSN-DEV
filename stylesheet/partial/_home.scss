@@ -1,44 +1,195 @@
-.head {
-	background-color : $true-white;
+/*BACKGROUND*/
+
+header{
+	section {
+
+
+	    /* Small Devices, Tablets */
+	    @media only screen and (max-width : 768px) {
+	    	height: 900px;
+	    }
+
+	    /* Medium Devices, Desktops */
+	    @media only screen and (min-width : 768px) {
+	    	height: 100vh;
+	    }
+		
+		&:nth-child(1) {
+			background: 
+		    /* top, transparent white */ 
+		    linear-gradient(
+		      rgba(255, 255, 255, 0.6), 
+		      rgba(255, 255, 255, 1)
+		    ),
+		    /* bottom, image */
+		    url(../asset/images/graduation.jpg);
+		}
+	}
 }
+
+main{
+	section {
+		&:nth-child(1) {
+			background: $true-white; 
+		}
+		&:nth-child(2) {
+			background: $true-white; 
+		}
+		&:nth-child(3) {
+			padding: 0px;
+			background: $apple-core;
+			.padding-single-web {
+				padding: 30px 0;
+			}
+		}
+		&:nth-child(4) {
+			padding-top: 50px;
+			padding-bottom: 50px;
+			background: $true-white;
+		}
+	}
+}
+	
+
+footer{
+	section {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background: $light-blueberry;
+	}
+}
+
+
+#myFooter {
+    color: #333;
+
+    .footer-copyright {
+	    background-color: #333333;
+	    padding-top: 3px;
+	    padding-bottom: 3px;
+	    text-align: center;
+	}
+	.row {
+	    margin-bottom: 60px;
+	}
+	.navbar-brand {
+	    margin-top: 45px;
+	    height: 65px;
+	}
+	.footer-copyright p {
+	    margin: 10px;
+	    color: #333;
+	}
+	ul {
+	    list-style-type: none;
+	    padding-left: 0;
+	    line-height: 1.7;
+	}
+	h5 {
+	    font-size: 18px;
+	    color: $citrus;
+	    font-weight: bold;
+	    margin-top: 30px;
+	}
+
+	a {
+	    color: $blueberry;
+	    text-decoration: none;
+	}
+	a:hover, a:focus {
+	    text-decoration: none;
+	    color: #333;
+	}
+	.social-networks {
+	    text-align: center;
+	    padding-top: 30px;
+	    padding-bottom: 16px;
+	    a {
+		    font-size: 32px;
+		    color: $blueberry;
+		    padding: 10px;
+		    transition: 0.2s;
+		}
+		a:hover {
+		    text-decoration: none;
+		}
+		.facebook:hover {
+		    color: #0077e2;
+		}
+
+		.google:hover {
+		    color: #ef1a1a;
+		}
+
+		.twitter:hover {
+		    color: #00aced;
+		}
+	}
+	.btn {
+	    color: white;
+	    background-color: $citrus;
+	    border-radius:0;
+	    width: 150px;
+	    display: block;
+	    margin: 0 auto;
+	    margin-top: 10px;
+	    line-height: 25px;
+
+	    &:hover, &:focus, &:active {
+	    	filter: brightness(95%);
+	  		background-color: $citrus;
+	  	}
+	}
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
 
 .underline-nav {
 	ul {
 	  list-style:none;
 	  font-family:'Trebuchet MS';
-	  font-size:17px;
+	  font-weight: 600;
+	  font-size:20px;
 	  text-align:center;
+	}
+	.nav-item {
+	  	margin-right : 40px;
 	}
 
 	li {
 	  position:relative;
 	  display:inline;
-	}
 
-	li a {
-	  text-decoration:none;
-	  color:#333;
-	  display:inline-block;
-	  padding:10px;
+	  a {
+		  	text-decoration:none;
+		  	color:#333;
+		  	display:inline-block;
+		  	padding:10px;
+
+		  	&:hover {
+			 	color: $citrus;
+			}
+
+			&:hover ~ span {
+			 	animation:ul 0.2s ease-out;
+			    background: #333;
+			}
+		}
 	}
 
 	span {
 	  display:block;
-	  width:calc(100% - 23px);
+	  width:calc(100% - 15px);
 	  height:2px;
-	  background: $true-white;
+	  background: none;
 	  position:absolute;
 	  left:10px;
 	  bottom:-10px;
-	}
-
-	li a:hover {
-	 	color:#0088CC;
-	}
-
-	li a:hover ~ span {
-	 	 animation:ul 0.2s ease-out;
-	   background:#333;
 	}
 
 	@keyframes ul {
@@ -55,13 +206,173 @@
 	}
 }
 
-.jssearch-home{
-	.form-control{
-		padding: 30px;
-	}
 
-	.btn {
-		padding: 30px;
+.main-search {
+  input, button, select{
+    border-radius:0;
+    height: 100px;
+    &:focus, &:active {
+  		border-color: $citrus;
+    }
+  }
+  button {
+  	background-color: $citrus;
+  	border-color: $citrus;
+  	&:hover, &:focus, &:active {
+  		filter: brightness(95%);
+  		background-color: $citrus;
+  		border-color: $citrus;
+	}
+  }
+
+
+   	@media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    	button {
+			width: 230px; 
+		}
+		input {
+		  	width : 250px; 
+		}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    	button {
+			width: 250px; 
+		}
+		input {
+		  	width : 400px; 
+		}
+    }
+  
+}
+
+/* TYPOGRAPHY */
+
+.headline {
+	margin-top: 150px; 
+	margin-bottom: 100px;
+	
+	&-text {
+	  font-family: 'Montserrat', sans-serif;
+	  font-size: 120px;
+	  font-weight: 900;
+	  font-style: italic; 
+	  margin: 20px 0;
+	  color: $citrus;
+	}
+	&-description{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 300;
+	    font-style: normal;
+	    font-size: 30px;
+	    margin-bottom: 30px;
 	}
 }
-	
+
+
+.section-title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+    font-style: italic; 
+    font-size: 40px;
+    color: #333;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+
+.desc {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+.single-web { 
+	&-section{
+		background: no-repeat url(../img/magnifying-glass-finder.svg) 50%;
+	}
+	&-title {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 900;
+	    font-style: italic; 
+	    font-size: 50px;
+	    color: $true-white;
+	    padding: 20px 20px 20px 0;
+	    line-height:70px;
+	    margin-bottom: 10px;
+	}
+	&-sub{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 900;
+	    font-style: italic; 
+	    font-size: 24px;
+	    color: #333;
+	    padding: 20px 0px 0px 30px;
+	    line-height:24px;
+	}
+	&-desc {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 300;
+	    font-style: italic; 
+	    font-size: 18px;
+	    color: #333;
+	    padding:  0px 0px 0px 30px;
+	    line-height: 18px;
+
+	}
+
+}
+
+.call { 
+	&-text {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 900;
+	    font-style: italic; 
+	    font-size: 50px;
+	    color: #333;
+	    line-height:70px;
+	    margin-bottom: 40px;
+	}
+	&-button{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 900;
+	    font-style: italic; 
+	    font-size: 24px;
+	    color: white;
+	    line-height:24px;
+      	text-align: center;
+      	padding: 20px;
+      	border-radius: 0px;
+      	display: inline-block;
+      	background: $citrus;
+      	color: #fff;
+      	text-decoration: none;
+
+      	&:hover, &:focus, &:active {
+	  		filter: brightness(95%);
+	  		background-color: $citrus;
+	  		border-color: $citrus;
+		}
+
+	}
+}
+
+/* BACKGROUND */
+
