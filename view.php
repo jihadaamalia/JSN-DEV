@@ -12,7 +12,9 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="stylesheet/main.css">
     <link href="dist/css/css.css" rel="stylesheet">
     <script src="dist/js/modernizr.custom.js"></script>
   <style>
@@ -21,16 +23,6 @@
       line-height: 1.8;
       color: #818181;
   }
-
-  .logo-small {
-      color: #f4511e;
-      font-size: 50px;
-  }
-  .logo {
-      color: #f4511e;
-      font-size: 200px;
-  }
-
 
   .item h4 {
       font-size: 19px;
@@ -52,7 +44,7 @@
   .navbar {
       height:75px;
       margin-bottom: 0;
-      background-color: #f7882f;
+      background-color: #f7c331;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -315,30 +307,58 @@
   </div>
 </div>
 
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
+<footer>
+  <center><a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
+  </a></center>
   <!-- <div class="container">
     <img src="">
   </div> -->
 
-  <div class="row">
-    <div class="container">
-      <h3 style="letter-spacing:3px">COLLEGE REGISTRATION</h3>
+  <section>
+    <div id= "myFooter" class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h2 class="logo"><a href="#"> LOGO </a></h2>
+        </div>
+        <div class="col-sm-2">
+          <h5>Get started</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">Downloads</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5>About us</h5>
+          <ul>
+            <li><a href="#">Company Information</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5>Support</h5>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help desk</a></li>
+            <li><a href="#">Forums</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+          </div>
+        <button type="button" class="btn btn-default">Contact us</button>
+        </div>
+      </div>
     </div>
-    <div class="container" style="padding:21px">
-      <a href="#about" class="item" style="text-decoration:none">Profile</a>
-      <a href="#schedule" class="item" style="text-decoration:none;padding: 0em 1.7em;">Schedule</a>
-      <a href="#jalur" class="item" style="text-decoration:none">Jalur</a>
-      <a href="#" class="item" style="text-decoration:none;padding: 0em 1.7em;">About Us</a>
-    </div>
-    <div class="container">
-    <img src="asset/images/logo WDC.png" style="width:100px; height: 100px; padding:10px;">
-    <img src="asset/images/logo HIMSISFO.png" style="width:100px; height: 100px; padding:10px;">
-    </div>
-  </div>
-  <p>Supported by JSN-Dev © 2017</p>
+      <div class="footer-copyright">
+        <center>  <p>Supported by JSN-Dev © 2017</p></center>
+      </div>
+  </section>
 </footer>
 
 <script>
