@@ -9,18 +9,13 @@
 
     <title>Search Universitas</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-
-    <!-- Custom styles for this template -->
-    <link href="dist/css/css.css" rel="stylesheet">
-    <script src="dist/js/modernizr.custom.js"></script>
+    <?php require('head.php'); ?>
 
   </head>
 
   <body>
 <!-- header -->
-    <nav class="navbar navbar-light" style="background-color: #1e656d;">
+    <nav class="navbar navbar-light" style="background-color: #f7c331;">
       <div class="input-group">
         <a class="navbar-brand" href="home.php">
           <img src="asset/images/Untitled-1.png" width="50" height="50" alt="">
@@ -62,92 +57,99 @@
       </div>
     </section>
  -->
-      <div class="container demo-3">
+    <main>
+      <section>
+        <div class="container">
+          <h2 class="section-title">Hasil Pencarian</h2>
+          <ul class="grid cs-style-3">
+            <li>
+              <figure>
+                <img src="asset/images/universitas/trisakti.jpg" alt="img02">
+                <figcaption>
+                  <h5>Universitas Trisakti</h5>
+                  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+                </figcaption>
+              </figure>
+              </li>
+            <li>
+              <figure>
+                <img src="asset/images/universitas/binus.jpg" alt="img02">
+                <figcaption>
+                  <h5>Universitas Bina Nusantara</h5>
+                  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+                </figcaption>
+              </figure>
+              </li>
+            <li>
+              <figure>
+                <img src="asset/images/universitas/umn.jpg" alt="img02">
+                <figcaption>
+                  <h5>Universitas Multimedia Nusantara</h5>
+                  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+                </figcaption>
+              </figure>
+              </li>
+            <li>
+              <figure>
+                <img src="asset/images/universitas/untar.jpg" alt="img02">
+                <figcaption>
+                  <h5>Universitas Tarumanegara</h5>
+                  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+                </figcaption>
+              </figure>
+              </li>
+          </ul>
+              </div>
+      </section>
+      <br><br><br>
+    </main>
 
-        <ul class="grid cs-style-3">
-          <li>
-          <figure>
-            <img src="asset/images/binus.png" alt="img04">
-            <figcaption>
-              <h5>Universitas Binus</h5>
-              <span>Jacob Cummings</span>
-              <a href="view.php">Selengkapnya</a>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="asset/images/binus.png" alt="img04">
-            <figcaption>
-              <h5>Universitas Binus</h5>
-              <span>Jacob Cummings</span>
-              <a href="view.php">Selengkapnya</a>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="asset/images/1.png" alt="img01">
-            <figcaption>
-              <h5>Universitas Tarumanegara</h5>
-              <span>Jacob Cummings</span>
-              <a href="view.php">Selengkapnya</a>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="asset/images/2.png" alt="img02">
-            <figcaption>
-              <h5>Univeristas Trisakti</h5>
-              <span>Jacob Cummings</span>
-              <a href="view.php">Selengkapnya</a>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="asset/images/5.png" alt="img05">
-            <figcaption>
-              <h3>Safari</h3>
-              <span>Jacob Cummings</span>
-              <a href="http://dribbble.com/shots/1116775-Safari">Take a look</a>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="asset/images/3.png" alt="img03">
-            <figcaption>
-              <h3>Phone</h3>
-              <span>Jacob Cummings</span>
-              <a href="http://dribbble.com/shots/1117308-Phone">Take a look</a>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="asset/images/6.png" alt="img06">
-            <figcaption>
-              <h3>Game Center</h3>
-              <span>Jacob Cummings</span>
-              <a href="http://dribbble.com/shots/1118904-Game-Center">Take a look</a>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-
+<footer>
+  <section>
+    <div id= "myFooter" class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h2 class="logo"><a href="#"> LOGO </a></h2>
+        </div>
+        <div class="col-sm-2">
+          <h5>Get started</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">Downloads</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5>About us</h5>
+          <ul>
+            <li><a href="#">Company Information</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5>Support</h5>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help desk</a></li>
+            <li><a href="#">Forums</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+          </div>
+        <button type="button" class="btn btn-default">Contact us</button>
+        </div>
       </div>
-
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+    </div>
+      <div class="footer-copyright">
+        <center>  <p>Supported by JSN-Dev © 2017</p></center>
       </div>
-    </footer>
+  </section>
+</footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
