@@ -220,7 +220,7 @@ a:active {
   }
 
   .navbar li a, .navbar .navbar-brand {
-      color: #f7882f !important;
+      color: black !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #fff !important;
