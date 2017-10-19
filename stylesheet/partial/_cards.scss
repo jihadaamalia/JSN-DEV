@@ -1,0 +1,177 @@
+/*UNI CARD */
+
+.grid {
+  padding: 0;
+  max-width: 1300px;
+  margin: 0 auto;
+  list-style: none;
+  
+  li {
+    display: inline-block;
+    width: 265px;
+    margin: 0 10px 0 0;
+    text-align: left;
+    position: relative;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  figure {
+    margin: 0;
+    position: relative;
+
+    img {
+      max-width: 100%;
+      height: 350px;
+      display: block;
+      position: relative;
+    }
+  }
+
+  figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: $blueberry;
+    color: #ed4e6e;
+    h5 {
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      height: 45px;
+      overflow:hidden;
+    }
+    a {
+      text-align: center;
+      padding: 5px 10px;
+      border-radius: 0px;
+      display: inline-block;
+      background: $apricot;
+      color: #fff;
+      margin-top:10px;
+      text-decoration: none;
+    }
+  }
+}
+
+
+/* Caption Style 3 */
+.cs-style-3 {
+  figure {
+    overflow: hidden;
+    img {
+      -webkit-transition: -webkit-transform 0.4s;
+      -moz-transition: -moz-transform 0.4s;
+      transition: transform 0.4s;
+    }
+  }
+
+  figcaption {
+    height: 130px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+
+  }
+}
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+  -webkit-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+  transition: transform 0.4s, opacity 0.1s;
+}
+ 
+
+
+
+/* MAJOR CARDS */
+
+
+.caption {
+  display: inline-block;
+  position: relative;
+}
+
+.caption img {
+  display: block;
+  max-width: 100%;
+  height: 280px;
+}
+
+.caption::before,
+.caption::after {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+  transition: opacity 0.3s; 
+}
+
+.caption::before {
+  content: attr(data-title);
+  top: 0;
+  height: 30%;
+  background: $dark-blueberry;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.caption::after {
+  content: '\201C' attr(data-description) '\201D';
+  top: 30%;
+  height: 70%;
+  background: $blueberry;
+  font-size: 16px;
+  text-align: right;
+}
+
+.caption:hover::before,
+.caption:hover::after {
+  opacity: 1;
+}
+
+
+@media only screen and (max-width : 768px) {
+
+  .slide-ver{
+    width: 100%;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      &-container{
+        width : 1200px;
+    } 
+  }
+  .grid {
+    max-width:unset;
+  }
+
+
+}
