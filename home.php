@@ -29,7 +29,7 @@
 							                <span></span>
 							            </li>
 							            <li class="nav-item">
-							                <a class="nav-link" href="#">Universities</a>
+							                <a class="nav-link" href="search.php">Universities</a>
 							                <span></span>
 							            </li>
 							        </ul>
@@ -42,7 +42,7 @@
 						<h1 class="headline-text">APPLY NOW.</h1>
 						<p class="headline-description">Start your journey to the University with an Application for Admission from a single web</p>
 
-						<form class="row justify-content-center main-search">
+						<form action="home_search.php" method="POST" class="row justify-content-center main-search">
 						  	<div class="form-group">
 						    	<label for="uni-name" class="sr-only">University Name</label>
 						    	<input type="text" class="form-control" id="uni-name" placeholder="University Name">
@@ -50,24 +50,24 @@
 						    <div class="form-group hidden-md-down ">
 								<select class="form-control" style=" height:100px; padding: 0 50px;">
 								<option value="" disabled selected style="display: none;">University Area</option>
-								  <option>1</option>
-								  <option>2</option>
-								  <option>3</option>
-								  <option>4</option>
-								  <option>5</option>
+								  <option>Jakarta</option>
+								  <option>Bogor</option>
+								  <option>Depok</option>
+								  <option>Tangerang</option>
+								  <option>Bekasi</option>
 								</select>
 						    </div>
 						    <div class="form-group hidden-md-down ">
 								<select class="form-control" style=" height:100px; padding: 0 50px;">
 								  	<option value="" disabled selected style="display: none;">Selected Major</option>
-								    <option>1</option>
-								    <option>2</option>
-								    <option>3</option>
-								    <option>4</option>
-								    <option>5</option>
+								    <option>Engineering</option>
+								    <option>Medical</option>
+								    <option>Politic</option>
+								    <option>Business</option>
+								    <option>Finance</option>
 								</select>
 						    </div>
-						  	<button type="submit" class="btn btn-primary">Find</button>
+						  	<a href="search.php"><button type="submit" class="btn btn-primary">Find</button></a>
 						</form>
 					</div>
 				</div>
@@ -81,7 +81,7 @@
 						<div class="col-9"><h2 class="section-title">Popular Universities</h2></div>
 						<div class="col-3 d-flex flex-row-reverse">
 							<a href="#" class=" hidden-md-down more align-self-end">Explore More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-							<a href="#" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+							<a href="search.php" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 						</div>
 					</div>
 					<div class="slide-ver">
@@ -134,7 +134,7 @@
 					<div class="row d-flex">
 						<div class="col-9"><h2 class="section-title">Popular Majors</h2></div>
 						<div class="col-3 d-flex flex-row-reverse">
-							<a href="#" class=" hidden-md-down more align-self-end">Explore More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+							<a href="search.php" class=" hidden-md-down more align-self-end">Explore More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 							<a href="#" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 						</div>
 					</div>
@@ -144,7 +144,7 @@
 								<div class="col-3">
 									<a 
 										class="caption" 
-										href="http://cargocollective.com/jaimemartinez/Illustration" 
+										href="search.php" 
 										data-title="ENGINEERING" 
 										data-description="Field of major that requires lots of technical practice and strong quantitive skills">
 
@@ -155,7 +155,7 @@
 								<div class="col-3">
 									<a 
 										class="caption" 
-										href="http://cargocollective.com/jaimemartinez/Illustration" 
+										href="search.php" 
 										data-title="MEDICAL" 
 										data-description="Undergraduate major for medical studies, required to be a doctor">
 
@@ -166,7 +166,7 @@
 								<div class="col-3">
 									<a 
 										class="caption" 
-										href="http://cargocollective.com/jaimemartinez/Illustration" 
+										href="search.php" 
 										data-title="ECONOMY" 
 										data-description="Economics majors learn about economic theory, economic systems, and mathematical methods">
 
@@ -177,7 +177,7 @@
 								<div class="col-3">
 									<a 
 										class="caption" 
-										href="http://cargocollective.com/jaimemartinez/Illustration" 
+										href="search.php" 
 										data-title="IT" 
 										data-description="Major that study computer science, business, and communications">
 
@@ -253,7 +253,7 @@
 			<section>
 				<div class="container">
 					<center><h2 class="call-text">Sounds interesting?</h2>
-					<a class="call-button">TRY NOW</a></center>
+					<a href="search.php" class="call-button">TRY NOW</a></center>
 				</div>
 			</section>
 		</main>
@@ -268,8 +268,8 @@
 		                <div class="col-sm-2">
 		                    <h5>Navigate</h5>
 		                    <ul>
-		                        <li><a href="#">Home</a></li>
-		                        <li><a href="#">University</a></li>
+		                        <li><a href="home.php">Home</a></li>
+		                        <li><a href="search.php">University</a></li>
 		                    </ul>
 		                </div>
 		                <div class="col-sm-4">
