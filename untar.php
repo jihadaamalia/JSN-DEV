@@ -3,7 +3,7 @@
 <head>
   <link rel="shortcut icon" href="asset/images/logo.png">
 
-  <title>Universitas Binus</title>
+  <title>Universitas Tarumanegara</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -98,19 +98,19 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="asset/images/universitas/binus4.jpg" alt="Chania">
+      <img src="asset/images/universitas/untar2.jpg" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="asset/images/universitas/binus.png" alt="Chania">
+      <img src="asset/images/universitas/untar3.jpg" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="asset/images/universitas/Binus (1).png" alt="Flower">
+      <img src="asset/images/universitas/images.jpg" alt="Flower">
     </div>
 
     <div class="item">
-      <img src="asset/images/universitas/binus2.jpg" alt="Flower">
+      <img src="asset/images/universitas/untar4.jpg" alt="Flower">
     </div>
   </div>
 
@@ -130,18 +130,15 @@
   <div class="row"> 
     <div class="col-sm-8">
       <h1> History </h1> <br>
-      <p>   Bina Nusantara University, also known as Binus University, is one of the private universities located in Jakarta, Indonesia. Started  from a computer training institute Modern Computer Course on October 21, 1974, and developed and eventually turned into a University on August 8, 1996, Bina Nusantara University. <br>
-
-      Lecture program, Faculty and study program of Bina Nusantara University - Binus University: Faculty of Economics and Communication: Accounting, Finance, Hotel Management (D4) and Marketing Communication. Faculty of Engineering: Industrial Engineering, Architecture, Civil Engineering and Computer Engineering. School of Design: Visual Communication Design New Media, Interior Design, Visual Communication Design Animation and Visual Communication Design Creative Advertising. School of Computer Science: Informatics Engineering, Mobile Applications and Technology and Game Application and Technology. </P> <br> <br>
+      <p>   Tarumanagara University is one of the universities located in Jakarta, Indonesia. The name of the university is derived from the name of the kingdom of Tarumanagara. The university was established on October 1, 1959 marked by the establishment of "Tarumanagara Economic College" under the auspices of "Tarumanagara Foundation" which was established on June 18, 1959.</p> <br> <br>
 
       <h1> Our Values </h1> <br>
-       <p> <strong> VISION: </strong> <br> "A World-class university ... In continuous pursuit of innovation and enterprise" </p>
-       <p> <strong> MISSION: </strong> <br> The mission of BINUS University is to contribute to the global community through the provision of world-class education by: </p>
-       <li> Recognizing and rewarding the most creative and value-adding talents </li>
-       <li> Providing a world-class teaching, learning and research experience that fosters excellence in scholarship, innovation and entrepreneurship. </li>
-       <li> Conducting professional services with an emphasis on the application of knowledge to the society </li>
-       <li> Creating outstanding leaders for global community </li>
-       <li> Improving the quality of life of Indonesians and the international community </li> <br>
+       <p> <strong> VISION: </strong> <br> Achieve high quality and professional technology education institutions at National and International level</p>
+       <p> <strong> MISSION: </strong> <br> </p>
+       <li> Delivering the students after their education to master, developing science and technology. </li>
+       <li> Carry out the duties so that the graduates are generated into a quality person so as to compete globally.</li>
+       <li> Produce graduates who can meet the demands of the job market in the field of industry and the needs of the wider community.</li>
+       <li> Encourage the development and application of science, technology and art. </li> <br>
     </div>
     <div class="col-sm-4">
           
@@ -158,14 +155,14 @@
             <div class="date">
               <div class="day">27</div>
               <div class="month">Mar</div>
-            </div><img src="asset/images/universitas/terbaik.jpg" style="height:60%;" />
+            </div><img src="asset/images/universitas/terbaik3.jpg" style="height:60%;" />
           </div>
           <!-- Post Content-->
           <div class="post-content">
             <div class="category">Photos</div>
-            <h1 class="title">Best College</h1>
-            <h2 class="sub_title">Earn 7 Awards</h2>
-            <p class="description">Binus University Wins 7 Best Private Universities Award 2015</p>
+            <h1 class="title">Best Student</h1>
+            <h2 class="sub_title">Olympic Accounting Competition</h2>
+            <p class="description">Students Tarumanagara University (UNTAR) again won a proud achievement. This achievement this time achieved by 2 students of the Faculty.</p>
           </div>
         </div> <br>
 
@@ -175,13 +172,13 @@
             <div class="date">
               <div class="day">27</div>
               <div class="month">April</div>
-            </div><img src="asset/images/universitas/terbaik2.jpg"/>
+            </div><img src="asset/images/universitas/terbaik4.jpg" style="height:60%;"/>
           </div>
           <!-- Post Content-->
           <div class="post-content">
             <div class="category">Photos</div>
-            <h1 class="title">Best Student</h1>
-            <h2 class="sub_title">The Best Graduates of 2017</h2>
+            <h1 class="title">Achievment</h1>
+            <h2 class="sub_title">FE UNTAR Achieved Best Schools of Management</h2>
             <p class="description">Congratulations to the Best Graduate Students of Graduation Information System 54 Binus University. Ki -ka: Selvi Nelin (GPA: 3.94); Inca Maya Sari (GPA: 4.00, which also earned Binusian Award and Binus Award of Excellence); and Junario Wibawa (GPA: 3.94). #bestgraduates # wisuda54 #sis #systeminformation #informationsystem #sis #GreaterNusantara #summacumlaude #schoolofis #schollisbinus #Binusian #binus </p>
           </div>
         </div>

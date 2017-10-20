@@ -73,7 +73,7 @@
                 <img src="asset/images/universitas/trisakti.jpg" alt="img02">
                 <figcaption>
                   <h5>Universitas Trisakti</h5>
-                  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+                  <a class="d-flex justify-content-center" href="trisakti.php">Selengkapnya</a>
                 </figcaption>
               </figure>
               </li>
@@ -82,7 +82,7 @@
                 <img src="asset/images/universitas/binus.jpg" alt="img02">
                 <figcaption>
                   <h5>Universitas Bina Nusantara</h5>
-                  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+                  <a class="d-flex justify-content-center" href="binus.php">Selengkapnya</a>
                 </figcaption>
               </figure>
               </li>
@@ -91,7 +91,7 @@
                 <img src="asset/images/universitas/umn.jpg" alt="img02">
                 <figcaption>
                   <h5>Universitas Multimedia Nusantara</h5>
-                  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+                  <a class="d-flex justify-content-center" href="umn.php">Selengkapnya</a>
                 </figcaption>
               </figure>
               </li>
@@ -100,7 +100,7 @@
                 <img src="asset/images/universitas/untar.jpg" alt="img02">
                 <figcaption>
                   <h5>Universitas Tarumanegara</h5>
-                  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+                  <a class="d-flex justify-content-center" href="untar.php">Selengkapnya</a>
                 </figcaption>
               </figure>
               </li>
