@@ -77,10 +77,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">PROFILE</a></li>
-        <li><a href="#schedule">SCHEDULE</a></li>
-        <li><a href="#jalur">ADMISSION</a></li>
-        <li><a href="about.php">ABOUT US</a></li>
+        <li><a href="#about">Profile</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#jalur">Admission</a></li>
+        <li><a href="about.php">About</a></li>
       </ul>
     </div>
   </div>
@@ -332,51 +332,46 @@
 </div>
 
 <footer>
-  <center><a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a></center>
-  <!-- <div class="container">
-    <img src="">
-  </div> -->
-  <section>
-    <div id= "myFooter" class="container">
-      <div class="row">
-        <div class="col-sm-3">
-          <h2 class="logo"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></h2>
-        </div>
-        <div class="col-sm-2">
-          <h5>Navigate</h5>
-          <ul>
-            <li><a href="home.php">Home</a></li>
-            <li><a href="search.php">University</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <h5>Supported By</h5>
-          <div class="row">
-            <div class="col-sm-6">
-              <img src="asset/images/logo WDC.png" style="width:100px; height: 100px; padding:10px;">
+      <section>
+            <div id= "myFooter" class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h2 class="logo"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></h2>
+                    </div>
+                    <div class="col-sm-2">
+                        <h5>Navigate</h5>
+                        <ul>
+                            <li><a href="home.php">Home</a></li>
+                            <li><a href="search.php">University</a></li>
+                            <li><a href="about.php">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5>Supported By</h5>
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="asset/images/logo WDC.png" style="width:100px; height: 100px; padding:10px;">
+                </div>
+                <div class="col-sm-6">
+                  <img src="asset/images/logo HIMSISFO.png" style="width:100px; height: 100px; padding:10px;">
+                </div>
+              </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="social-networks">
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                        </div>
+                        <a href="mailto:contact@jsn-dev.com?subject=Information%2E%2E%2E%20%28DD%2FMM%2FYYYY%29" type="button" class="btn btn-default">Contact us</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6">
-              <img src="asset/images/logo HIMSISFO.png" style="width:100px; height: 100px; padding:10px;">
+            <div class="footer-copyright">
+                <center><p>© 2017 JSN Developers </p></center>
             </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="social-networks">
-            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-          </div>
-          <a href="about.php"><button type="button" class="btn btn-default">About us</button></a>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <center><p>© 2017 JSN Developers </p></center>
-    </div>
-  </section>
-</footer>
+      </section>
+    </footer>
 
 <script>
 $(document).ready(function(){
