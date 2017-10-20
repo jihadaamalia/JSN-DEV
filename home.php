@@ -276,6 +276,7 @@
 		                    <ul>
 		                        <li><a href="home.php">Home</a></li>
 		                        <li><a href="search.php">University</a></li>
+		                        <li><a href="about.php">About</a></li>
 		                    </ul>
 		                </div>
 		                <div class="col-sm-4">
