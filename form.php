@@ -112,20 +112,20 @@
 						</label>
 					</span><br>
 					<div id="nl-form" class="nl-form">
-					<div style="width: 310px; float: right;"><select>
+					<div style="width: 370px; float: right;"><select>
 						<option value="1" selected>Click To Choose Faculty 2</option>
 						<option value="2">Faculty of Engineering</option>
 						<option value="3">Faculty of Humanity</option>
 						<option value="4">Faulty of Psychology</option>
 					</select></div>
-					<div  style="width: 310px; float: right;"><select required>
+					<div  style="width: 370px; float: right;"><select required>
 						<option value="1" selected>Click To Choose Faculty 1</option>
 						<option value="2">Faculty of Law</option>
 						<option value="3">Faculty of Computer</option>
 						<option value="4">Faculty of Administration</option>
 					</select></div>
 					
-					<div  style="width: 310px; float: right;"><select required>
+					<div  style="width: 370px; float: right;"><select required>
 						<option value="1" selected>Click To Choose Degree</option>
 					 	<option value="1">Diploma 3 Degree</option>
 					 	<option value="2">Diploma 4 Degree</option>
