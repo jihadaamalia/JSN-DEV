@@ -15,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="dist/css/default_payment.css" />
 	<link rel="stylesheet" type="text/css" href="dist/css/payment1.css" />
 
-	<script src="dist/js/modernizr.custom.js"></script>
+	<script src="dist/js/modernizr1.custom.js"></script>
 </head>
 <?php  
 $servername = "localhost";

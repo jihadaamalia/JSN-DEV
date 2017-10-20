@@ -19,7 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="dist/css/selected.css" />
 
 	
-	<script src="dist/js/modernizr.custom.js"></script>
+	<script src="dist/js/modernizr1.custom.js"></script>
 
 
 	<style>
