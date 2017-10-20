@@ -9,6 +9,7 @@
 	    <meta name="author" content="">
 		<?php require('head.php'); ?>
 
+
 	</head>
 
 	<body>
@@ -21,7 +22,7 @@
 								<button class="navbar-button navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 									<span class="navbar-toggler-icon"></span>
 								</button>
-							  	<a class="navbar-brand" href="#"><img src="asset/images/university-graduate-hat.png" width="50px;" /></a>
+							  	<a class="navbar-brand" href="#"><img class="logo" src="asset/images/logo.png" /></a>
 							  	<div class="navbar-collapse collapse dual-collapse underline-nav" id="navbarNav">
 							        <ul class="navbar-nav ml-auto">
 							            <li class="nav-item">
@@ -39,7 +40,7 @@
 					</div>
 					
 					<div class="headline" >
-						<h1 class="headline-text">APPLY NOW.</h1>
+						<h1 class="headline-text" >APPLY NOW.</h1>
 						<p class="headline-description">Start your journey to the University with an Application for Admission from a single web</p>
 
 						<form action="home_search.php" method="POST" class="row justify-content-center main-search">
@@ -76,7 +77,7 @@
 
 		<main>
 			<section>
-				<div class="container">
+				<div data-aos="fade-up"  data-aos-duration="1500" data-aos-easing="ease-in-quad" class="container">
 					<div class="row d-flex">
 						<div class="col-9"><h2 class="section-title">Popular Universities</h2></div>
 						<div class="col-3 d-flex flex-row-reverse">
@@ -130,12 +131,12 @@
 			</section>
 			
 			<section>
-				<div class="container">
+				<div data-aos="fade-up"  data-aos-duration="1500" data-aos-easing="ease-in-quad" class="container">
 					<div class="row d-flex">
 						<div class="col-9"><h2 class="section-title">Popular Majors</h2></div>
 						<div class="col-3 d-flex flex-row-reverse">
 							<a href="search.php" class=" hidden-md-down more align-self-end">Explore More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-							<a href="#" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+							<a href="seach.php" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 						</div>
 					</div>
 					<div class="slide-ver">
@@ -194,7 +195,7 @@
 
 			<section>
 				<div class="container">
-					<div class="row d-flex align-items-stretch">
+					<div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out-cubic" class="row d-flex align-items-stretch">
 						<div class="d-flex single-web-section col-md-6 col-xs-12">
 							<div class="align-self-center">
 								<h2 class="single-web-title">Apply to Multiple Universities from a Single Web</h2>
@@ -214,7 +215,7 @@
 			</section>
 
 			<section class="timeline">
-				<div class="container"><center><h2 class="timeline-text">How Do We Work?</h2></center></div>
+				<div class="container"><center><h2 data-aos-duration="1500" data-aos-easing="ease-in-quad" class="timeline-text">How Do We Work?</h2></center></div>
 				<ol>
 					<li>
 						<div>
@@ -253,7 +254,7 @@
 			<section>
 				<div class="container">
 					<center><h2 class="call-text">Sounds interesting?</h2>
-					<a href="search.php" class="call-button">TRY NOW</a></center>
+					<a data-aos="flip-down" data-aos-duration="1000" data-aos-easing="ease-in-sine" href="search.php" class="call-button">TRY NOW</a></center>
 				</div>
 			</section>
 		</main>
@@ -263,7 +264,7 @@
 		        <div id= "myFooter" class="container">
 		            <div class="row">
 		                <div class="col-sm-3">
-		                    <h2 class="logo"><a href="#"> LOGO </a></h2>
+		                    <h2 class="logo"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></h2>
 		                </div>
 		                <div class="col-sm-2">
 		                    <h5>Navigate</h5>
@@ -299,4 +300,15 @@
 			</section>
 		</footer>
 	</body>
+
+	<script>
+
+	AOS.init({
+  disable: function() {
+    var maxWidth = 768;
+    return window.innerWidth < maxWidth;
+  }
+});
+
+	</script>
 </html>

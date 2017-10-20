@@ -12,3 +12,9 @@
 		<!--font-->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+		<!--aos-->
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+		<script src="dist/js/AOS.js"></script>
