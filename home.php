@@ -33,6 +33,10 @@
 							                <a class="nav-link" href="search.php">Universities</a>
 							                <span></span>
 							            </li>
+							            <li class="nav-item">
+							                <a class="nav-link" href="about.php">About</a>
+							                <span></span>
+							            </li>
 							        </ul>
 							    </div>
 							</nav>
@@ -81,7 +85,7 @@
 					<div class="row d-flex">
 						<div class="col-9"><h2 class="section-title">Popular Universities</h2></div>
 						<div class="col-3 d-flex flex-row-reverse">
-							<a href="#" class=" hidden-md-down more align-self-end">Explore More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+							<a href="search.php" class=" hidden-md-down more align-self-end">Explore More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 							<a href="search.php" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 						</div>
 					</div>
@@ -93,7 +97,7 @@
 										<img src="asset/images/universitas/trisakti.jpg" alt="img02">
 										<figcaption>
 										  <h5>Universitas Trisakti</h5>
-										  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+										  <a class="d-flex justify-content-center" href="trisakti.php">Selengkapnya</a>
 										</figcaption>
 									</figure>
 							    </li>
@@ -102,7 +106,7 @@
 										<img src="asset/images/universitas/binus.jpg" alt="img02">
 										<figcaption>
 										  <h5>Universitas Bina Nusantara</h5>
-										  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+										  <a class="d-flex justify-content-center" href="binus.php">Selengkapnya</a>
 										</figcaption>
 									</figure>
 							    </li>
@@ -111,7 +115,7 @@
 										<img src="asset/images/universitas/umn.jpg" alt="img02">
 										<figcaption>
 										  <h5>Universitas Multimedia Nusantara</h5>
-										  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+										  <a class="d-flex justify-content-center" href="umn.php">Selengkapnya</a>
 										</figcaption>
 									</figure>
 							    </li>
@@ -120,7 +124,7 @@
 										<img src="asset/images/universitas/untar.jpg" alt="img02">
 										<figcaption>
 										  <h5>Universitas Tarumanegara</h5>
-										  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+										  <a class="d-flex justify-content-center" href="untar.php">Selengkapnya</a>
 										</figcaption>
 									</figure>
 							    </li>
@@ -136,7 +140,7 @@
 						<div class="col-9"><h2 class="section-title">Popular Majors</h2></div>
 						<div class="col-3 d-flex flex-row-reverse">
 							<a href="search.php" class=" hidden-md-down more align-self-end">Explore More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-							<a href="seach.php" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+							<a href="search.php" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 						</div>
 					</div>
 					<div class="slide-ver">
@@ -264,7 +268,8 @@
 		        <div id= "myFooter" class="container">
 		            <div class="row">
 		                <div class="col-sm-3">
-		                    <h2 class="logo"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></h2>
+		                    <h2 class="logo hidden-md-down"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></h2>
+		                    <center class="hidden-lg-up"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></center>
 		                </div>
 		                <div class="col-sm-2">
 		                    <h5>Navigate</h5>
