@@ -80,6 +80,7 @@
         <li><a href="#about">PROFILE</a></li>
         <li><a href="#schedule">SCHEDULE</a></li>
         <li><a href="#jalur">ADMISSION</a></li>
+        <li><a href="about.php">ABOUT US</a></li>
       </ul>
     </div>
   </div>
@@ -371,7 +372,7 @@
             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
             <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
           </div>
-          <button href="mailto:contact@jsn-dev.com?subject=Information%2E%2E%2E%20%28DD%2FMM%2FYYYY%29" type="button" class="btn btn-default">Contact us</button>
+          <a href="about.php"><button type="button" class="btn btn-default">About us</button></a>
         </div>
       </div>
     </div>

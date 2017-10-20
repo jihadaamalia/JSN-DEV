@@ -51,18 +51,7 @@
       </div>
     </nav>
   <!-- header -->
-<!-- 
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">Album example</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-        <p>
-          <a href="#" class="btn btn-primary">Main call to action</a>
-          <a href="#" class="btn btn-secondary">Secondary action</a>
-        </p>
-      </div>
-    </section>
- -->
+
     <main>
       <section>
         <div class="container">
@@ -141,7 +130,7 @@
             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
             <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
           </div>
-          <button href="mailto:contact@jsn-dev.com?subject=Information%2E%2E%2E%20%28DD%2FMM%2FYYYY%29" type="button" class="btn btn-default">Contact us</button>
+          <a href="about.php"><button type="button" class="btn btn-default">About us</button></a>
         </div>
       </div>
     </div>
