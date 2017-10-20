@@ -328,7 +328,7 @@
            <p> 7. Come to Trisakti University Postgraduate Program to perform Academic (written) test in accordance with predetermined schedule </p>
         </div>
         <div class="panel-footer">
-          <button class="btn btn-lg">Registration</button>
+          <a href="form.php"><button class="btn btn-lg">Registration</button></a>
         </div>
       </div>      
     </div>    
