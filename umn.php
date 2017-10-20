@@ -160,7 +160,7 @@
           <!-- Post Content-->
           <div class="post-content">
             <div class="category">Photos</div>
-            <h1 class="title">Mahasiswa Terbaik</h1>
+            <h1 class="title">Best Student</h1>
             <h2 class="sub_title">Ricky Daniel: The Football Champion from IT UMN</h2>
             <p class="description">Since childhood, Ricky was already interested in the world of football. Not only make it as a hobby, but also digelutinya in depth by joining with several School Soccer (SSB) in Tangerang since school age. Had a vacuum due to focus on his studies in high school, after graduation, Ricky then proceed to a higher level of academy level. Currently, he has been a member of Sam's Soccer Academy (SSA), Karawaci for U-18</p>
           </div>
@@ -177,7 +177,7 @@
           <!-- Post Content-->
           <div class="post-content">
             <div class="category">Photos</div>
-            <h1 class="title">Mahasiswa/i Berprestasi</h1>
+            <h1 class="title">Best Student</h1>
             <h2 class="sub_title">Pembuatan Film Terbaik</h2>
             <p class="description">Film Waeyo besutan tim Piyona Cinematic dari Universitas Multimedia Nusantara berhasil menjadi Film Terbaik Kategori Mahasiswa di Festival Film Banten 2017</p>
           </div>
