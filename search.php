@@ -80,9 +80,8 @@
       <section>
         <div class="container">
           <h2 class="section-title">Hasil Pencarian</h2>
-          <ul class="grid cs-style-3"> 
-            <div ng-repeat ='uni in unis | filter: myFilter' >
-            <li>
+          <ul class="grid cs-style-3">
+            <li ng-repeat ='uni in unis | filter: myFilter' >
               <figure>
                 <img ng-src="{{uni['foto_univ']}}">
                 <figcaption>
@@ -91,7 +90,6 @@
                 </figcaption>
               </figure>
             </li>
-            </div>
           </ul>
               
       </section>
