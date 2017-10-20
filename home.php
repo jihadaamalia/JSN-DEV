@@ -296,7 +296,7 @@
 		                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
 		                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
 		                    </div>
-		                    <button href="mailto:contact@jsn-dev.com?subject=Information%2E%2E%2E%20%28DD%2FMM%2FYYYY%29" type="button" class="btn btn-default">Contact us</button>
+		                    <a href="mailto:contact@jsn-dev.com?subject=Information%2E%2E%2E%20%28DD%2FMM%2FYYYY%29" type="button" class="btn btn-default">Contact us</a>
 		                </div>
 		            </div>
 		        </div>
