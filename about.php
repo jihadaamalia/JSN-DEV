@@ -80,7 +80,7 @@
                 <a class="navbar-brand" href="home.php">
                 <img src="asset/images/logo.png" width="50" height="50" alt="home">
                 </a>
-            <center><p>JSN-DEV</p></center><br><br>
+            <center><p>ABOUT</p></center><br><br>
                University Admission website is a website that provides information about university program, admission, as well as admission service for multiple private university in Indonesia. University admission website developed by JSN-DEV team from Politeknik Negeri Jakarta that consist of 3 members, Jihada Amalia, Nadiah Nurul Aulia, and Suci Ana Lathifah.
             </div>
 
@@ -98,8 +98,8 @@
                     <div class="heading">Nadiah</div>
                     <div class="bgDescription"></div>
                     <div class="description">
-                        <h2>Nadiah Nurul Aulia </h2>
-                        <p>IT Student of Politeknik Negeri Jakarta Mahasiswi who has interest in website development especially front end/web design development. Eager to learn new framework and technology. And able to use Joomla, Laravel, and Ckan.</p>
+                        <h2>Nadiah Nurul </h2>
+                        <p>IT Student of Politeknik Negeri Jakarta who has interest in website development especially front end/web design development. Eager to learn new framework and technology. And able to use Joomla, Laravel, and Ckan.</p>
                     </div>
 
                 </li>
@@ -108,12 +108,7 @@
                     <div class="bgDescription"></div>
                     <div class="description">
                         <h2>Suci Ana Lathifah</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                            nulla pariatur.</p>
+                        <p>An IT Student of Politeknik Negeri Jakarta Mahasiswi who love designing app as well as website. </p>
                     </div>
 
                 </li>

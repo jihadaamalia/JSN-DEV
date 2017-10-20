@@ -1,7 +1,8 @@
 ul.accordion{
     list-style:none;   
-    position:center;
-    top:0px;
+    position:absolute;
+    right:80px;
+    top:100px;
     font-family: Cambria, serif;
     font-size: 16px;
     font-style: italic;
