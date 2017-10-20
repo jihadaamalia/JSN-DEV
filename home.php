@@ -81,7 +81,7 @@
 					<div class="row d-flex">
 						<div class="col-9"><h2 class="section-title">Popular Universities</h2></div>
 						<div class="col-3 d-flex flex-row-reverse">
-							<a href="#" class=" hidden-md-down more align-self-end">Explore More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+							<a href="search.php" class=" hidden-md-down more align-self-end">Explore More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 							<a href="search.php" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 						</div>
 					</div>
@@ -136,7 +136,7 @@
 						<div class="col-9"><h2 class="section-title">Popular Majors</h2></div>
 						<div class="col-3 d-flex flex-row-reverse">
 							<a href="search.php" class=" hidden-md-down more align-self-end">Explore More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-							<a href="seach.php" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+							<a href="search.php" class="more align-self-end hidden-lg-up">More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 						</div>
 					</div>
 					<div class="slide-ver">
