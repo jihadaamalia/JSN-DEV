@@ -8,7 +8,8 @@
 	<meta name="description" content="Simple ideas for enhancing text input interactions" />
 	<meta name="keywords" content="input, text, effect, focus, transition, interaction, inspiration, web design" />
 	<meta name="author" content="Codrops" />
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="stylesheet/main.css">
 	<link rel="shortcut icon" href="../favicon.ico">
 	<link rel="stylesheet" type="text/css" href="dist/css/normalize.css" />
 	<!-- <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" /> -->
@@ -66,7 +67,7 @@
 			<header class="codrops-header">
 				<h1>Registration Form</h1>
 			</header>
-			<form method="post" action="simpan.php">
+			<form method="post" action="payment.php">
 				<div id="fadeInLeft">
 					<span class="input input--hoshi">
 						<input required class="input__field input__field--hoshi" name="name" type="text" id="input-4" />
@@ -120,7 +121,7 @@
 					<div  style="width: 310px; float: right;"><select required>
 						<option value="1" selected>Click To Choose Faculty 1</option>
 						<option value="2">Faculty of Law</option>
-						<option value="3">Faculty of Computer Science</option>
+						<option value="3">Faculty of Computer</option>
 						<option value="4">Faculty of Administration</option>
 					</select></div>
 					
@@ -138,8 +139,8 @@
 				</div>
 			</form>
 		</div>
-
 	</div><!-- /container -->
+
 	<script src="dist/js/classie.js"></script>
 	<script src="dist/js/nlform.js"></script>
 	<script>
@@ -186,4 +187,44 @@
 			})();
 		</script>
 	</body>
+	<footer>
+			<section>
+		        <div id= "myFooter" class="container">
+		            <div class="row">
+		                <div class="col-sm-3">
+		                    <h2 class="logo"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></h2>
+		                </div>
+		                <div class="col-sm-2">
+		                    <h5>Navigate</h5>
+		                    <ul>
+		                        <li><a href="home.php">Home</a></li>
+		                        <li><a href="search.php">University</a></li>
+		                    </ul>
+		                </div>
+		                <div class="col-sm-4">
+		                    <h5>Supported By</h5>
+							<div class="row">
+								<div class="col-sm-6">
+									<img src="asset/images/logo WDC.png" style="width:100px; height: 100px; padding:10px;">
+								</div>
+								<div class="col-sm-6">
+									<img src="asset/images/logo HIMSISFO.png" style="width:100px; height: 100px; padding:10px;">
+								</div>
+							</div>
+		                </div>
+		                <div class="col-sm-3">
+		                    <div class="social-networks">
+		                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+		                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+		                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+		                    </div>
+		                    <button href="mailto:contact@jsn-dev.com?subject=Information%2E%2E%2E%20%28DD%2FMM%2FYYYY%29" type="button" class="btn btn-default">Contact us</button>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="footer-copyright">
+		            <center><p>© 2017 JSN Developers </p></center>
+		        </div>
+			</section>
+		</footer>
 	</html>
