@@ -68,7 +68,7 @@
 	<div class="container">
 		<div class="content">
 			<header class="codrops-header">
-				<a href="view.php"><p class="nav-link" style="text-align: left; padding-left: 30px; color: #404d5b">Back To Home</p></a>
+				<a href="binus.php"><p class="nav-link" style="text-align: left; padding-left: 30px; color: #404d5b">Back To Home</p></a>
 				<h1>Registration Form</h1>
 			</header>
 			<form method="post" action="payment.php">
