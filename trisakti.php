@@ -3,7 +3,7 @@
 <head>
   <link rel="shortcut icon" href="asset/images/logo.png">
 
-  <title>Universitas Binus</title>
+  <title>Universitas Trisakti</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -98,19 +98,19 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="asset/images/universitas/binus4.jpg" alt="Chania">
+      <img src="asset/images/universitas/trisakti2.jpg" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="asset/images/universitas/binus.png" alt="Chania">
+      <img src="asset/images/universitas/trisakti5.jpg" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="asset/images/universitas/Binus (1).png" alt="Flower">
+      <img src="asset/images/universitas/trisakti3.jpg" alt="Flower">
     </div>
 
     <div class="item">
-      <img src="asset/images/universitas/binus2.jpg" alt="Flower">
+      <img src="asset/images/universitas/trisakti4.jpg" alt="Flower">
     </div>
   </div>
 
@@ -130,18 +130,19 @@
   <div class="row"> 
     <div class="col-sm-8">
       <h1> History </h1> <br>
-      <p>   Bina Nusantara University, also known as Binus University, is one of the private universities located in Jakarta, Indonesia. Started  from a computer training institute Modern Computer Course on October 21, 1974, and developed and eventually turned into a University on August 8, 1996, Bina Nusantara University. <br>
-
-      Lecture program, Faculty and study program of Bina Nusantara University - Binus University: Faculty of Economics and Communication: Accounting, Finance, Hotel Management (D4) and Marketing Communication. Faculty of Engineering: Industrial Engineering, Architecture, Civil Engineering and Computer Engineering. School of Design: Visual Communication Design New Media, Interior Design, Visual Communication Design Animation and Visual Communication Design Creative Advertising. School of Computer Science: Informatics Engineering, Mobile Applications and Technology and Game Application and Technology. </P> <br> <br>
+       <p> Trisakti University, at an early stage, as an "Entry Point" has been successful and will always stand in front of "To Stay Ahead". Furthermore, Trisakti University has tried and tried to anticipate the above problems by developing Postgraduate Program in which this effort is the first time a private university (PTS) in Indonesia is given full trust to hold the Master of Management Program with the full accreditation by the Ministry of Education and Culture of the Republic of Indonesia on 16 October 1992. This success continued with the full accreditation given for the implementation of Master Program of Civil Engineering and Electrical Engineering Master Program on August 16, 1993, and the Master of Dentistry Program dated October 14, 1998, Master Program of Architecture dated June 6, 2000, Doctoral Program of Economics dated June 23, 2000. <br> <br>
 
       <h1> Our Values </h1> <br>
-       <p> <strong> VISION: </strong> <br> "A World-class university ... In continuous pursuit of innovation and enterprise" </p>
-       <p> <strong> MISSION: </strong> <br> The mission of BINUS University is to contribute to the global community through the provision of world-class education by: </p>
-       <li> Recognizing and rewarding the most creative and value-adding talents </li>
-       <li> Providing a world-class teaching, learning and research experience that fosters excellence in scholarship, innovation and entrepreneurship. </li>
-       <li> Conducting professional services with an emphasis on the application of knowledge to the society </li>
-       <li> Creating outstanding leaders for global community </li>
-       <li> Improving the quality of life of Indonesians and the international community </li> <br>
+       <p> <strong> VISION: </strong> <br>
+       As an internationally renowned Master Degree Program in the study and development of Global Business Management. </P>
+       <p> <strong> MISSION: </strong> <br>
+       <li> Holds a Master of Management education that excels through an integrated education system with the curriculum
+      which refers to a continuously increasing quality (need). </li>
+       <li> Creating a scientific climate and academic culture conducive to research and development of science at
+      areas of management relevant to the demands and needs of learners and the community. </li>
+       <li> Promote and apply study / research results on industrial systems and in management for
+     interests of the business as a whole. </li>
+      <br>
     </div>
     <div class="col-sm-4">
           
@@ -158,14 +159,14 @@
             <div class="date">
               <div class="day">27</div>
               <div class="month">Mar</div>
-            </div><img src="asset/images/universitas/terbaik.jpg" style="height:60%;" />
+            </div><img src="asset/images/universitas/terbaik1.jpg" style="height:40%;" />
           </div>
           <!-- Post Content-->
           <div class="post-content">
             <div class="category">Photos</div>
-            <h1 class="title">Best College</h1>
-            <h2 class="sub_title">Earn 7 Awards</h2>
-            <p class="description">Binus University Wins 7 Best Private Universities Award 2015</p>
+            <h1 class="title">Best Student</h1>
+            <h2 class="sub_title">Trisakti students successfully bring 3 Champion at the same time in Business Plan Competition</h2>
+            <p class="description">Four groups of Trisakti University Students representatives of Industrial Engineering Department participated in National Business Plan Competition held by UKRIDA. The competition with the theme of "Challenge yourself and make your own business" was held from October 10, 2016 to the peak of the Final on 2 December 2016.</p>
           </div>
         </div> <br>
 
@@ -175,14 +176,14 @@
             <div class="date">
               <div class="day">27</div>
               <div class="month">April</div>
-            </div><img src="asset/images/universitas/terbaik2.jpg"/>
+            </div><img src="asset/images/universitas/trisakti4.jpg" style="height:60%;"/>
           </div>
           <!-- Post Content-->
           <div class="post-content">
             <div class="category">Photos</div>
             <h1 class="title">Best Student</h1>
             <h2 class="sub_title">The Best Graduates of 2017</h2>
-            <p class="description">Congratulations to the Best Graduate Students of Graduation Information System 54 Binus University. Ki -ka: Selvi Nelin (GPA: 3.94); Inca Maya Sari (GPA: 4.00, which also earned Binusian Award and Binus Award of Excellence); and Junario Wibawa (GPA: 3.94). #bestgraduates # wisuda54 #sis #systeminformation #informationsystem #sis #GreaterNusantara #summacumlaude #schoolofis #schollisbinus #Binusian #binus </p>
+            <p class="description">Congratulations to the Best Graduates of Graduation Information System 54 Trisakti University. Ki -ka: Selvi Nelin (GPA: 3.94); Inca Maya Sari and Junario Wibawa (GPA: 3.94). #bestgraduates # wisuda54 #sis #systeminformation #informationsystem #sis  #summacumlaude #schoolofis #schollistrisakti #trisakti </p>
           </div>
         </div>
       </div>

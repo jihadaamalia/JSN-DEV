@@ -3,7 +3,7 @@
 <head>
   <link rel="shortcut icon" href="asset/images/logo.png">
 
-  <title>Universitas Binus</title>
+  <title>Universitas Multimedia Nusantara</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -98,19 +98,19 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="asset/images/universitas/binus4.jpg" alt="Chania">
+      <img src="asset/images/universitas/umn3.jpg" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="asset/images/universitas/binus.png" alt="Chania">
+      <img src="asset/images/universitas/umn2.jpg" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="asset/images/universitas/Binus (1).png" alt="Flower">
+      <img src="asset/images/universitas/umn4.jpg" alt="Flower">
     </div>
 
     <div class="item">
-      <img src="asset/images/universitas/binus2.jpg" alt="Flower">
+      <img src="asset/images/universitas/umn5.jpg" alt="Flower">
     </div>
   </div>
 
@@ -129,19 +129,15 @@
 <div id="about" class="container"><br><br><br>
   <div class="row"> 
     <div class="col-sm-8">
-      <h1> History </h1> <br>
-      <p>   Bina Nusantara University, also known as Binus University, is one of the private universities located in Jakarta, Indonesia. Started  from a computer training institute Modern Computer Course on October 21, 1974, and developed and eventually turned into a University on August 8, 1996, Bina Nusantara University. <br>
+      <h1>History</h1><br>
+      <p>UMN runs in the auspices of Multimedia Nusantara Foundation founded by Kompas Gramedia. Nusantara founded by Kompas Gramedia. On 20 November 2006 UMN's existence was announced (official) at Hotel Santika by Dr. Ir. Ir Dodi Nandika, Secretary General of the Ministry of National Education.<br><br>
 
-      Lecture program, Faculty and study program of Bina Nusantara University - Binus University: Faculty of Economics and Communication: Accounting, Finance, Hotel Management (D4) and Marketing Communication. Faculty of Engineering: Industrial Engineering, Architecture, Civil Engineering and Computer Engineering. School of Design: Visual Communication Design New Media, Interior Design, Visual Communication Design Animation and Visual Communication Design Creative Advertising. School of Computer Science: Informatics Engineering, Mobile Applications and Technology and Game Application and Technology. </P> <br> <br>
-
-      <h1> Our Values </h1> <br>
-       <p> <strong> VISION: </strong> <br> "A World-class university ... In continuous pursuit of innovation and enterprise" </p>
-       <p> <strong> MISSION: </strong> <br> The mission of BINUS University is to contribute to the global community through the provision of world-class education by: </p>
-       <li> Recognizing and rewarding the most creative and value-adding talents </li>
-       <li> Providing a world-class teaching, learning and research experience that fosters excellence in scholarship, innovation and entrepreneurship. </li>
-       <li> Conducting professional services with an emphasis on the application of knowledge to the society </li>
-       <li> Creating outstanding leaders for global community </li>
-       <li> Improving the quality of life of Indonesians and the international community </li> <br>
+      <h1>Our Values</h1><br>
+      <p><strong>VISION:</strong><br>
+      Multimedia Nusantara University becomes a leading university in the field of ICT, both at national and international level, which produces graduates with international vision and high competence in the field (expertise) accompanied by entrepreneurial spirit and noble character.</p>
+      <p><strong>MISSION:</strong><br>
+      Participate in the intellectual life of the nation and promote the welfare of the nation through the efforts of higher education by implementing Tridarma Perguruan Tinggi (Education, Research and Community Service), to improve the quality of Indonesian human resources.
+      <br>
     </div>
     <div class="col-sm-4">
           
@@ -156,16 +152,16 @@
           <!-- Thumbnail-->
           <div class="thumbnail">
             <div class="date">
-              <div class="day">27</div>
-              <div class="month">Mar</div>
-            </div><img src="asset/images/universitas/terbaik.jpg" style="height:60%;" />
+              <div class="day">21</div>
+              <div class="month">Nov</div>
+            </div><img src="asset/images/universitas/prestasiumn2.jpg" style="height:60%;" />
           </div>
           <!-- Post Content-->
           <div class="post-content">
             <div class="category">Photos</div>
-            <h1 class="title">Best College</h1>
-            <h2 class="sub_title">Earn 7 Awards</h2>
-            <p class="description">Binus University Wins 7 Best Private Universities Award 2015</p>
+            <h1 class="title">Mahasiswa Terbaik</h1>
+            <h2 class="sub_title">Ricky Daniel: The Football Champion from IT UMN</h2>
+            <p class="description">Since childhood, Ricky was already interested in the world of football. Not only make it as a hobby, but also digelutinya in depth by joining with several School Soccer (SSB) in Tangerang since school age. Had a vacuum due to focus on his studies in high school, after graduation, Ricky then proceed to a higher level of academy level. Currently, he has been a member of Sam's Soccer Academy (SSA), Karawaci for U-18</p>
           </div>
         </div> <br>
 
@@ -173,16 +169,16 @@
           <!-- Thumbnail-->
           <div class="thumbnail">
             <div class="date">
-              <div class="day">27</div>
-              <div class="month">April</div>
-            </div><img src="asset/images/universitas/terbaik2.jpg"/>
+              <div class="day">30</div>
+              <div class="month">Augst</div>
+            </div><img src="asset/images/universitas/prestasiumn.jpg"/>
           </div>
           <!-- Post Content-->
           <div class="post-content">
             <div class="category">Photos</div>
-            <h1 class="title">Best Student</h1>
-            <h2 class="sub_title">The Best Graduates of 2017</h2>
-            <p class="description">Congratulations to the Best Graduate Students of Graduation Information System 54 Binus University. Ki -ka: Selvi Nelin (GPA: 3.94); Inca Maya Sari (GPA: 4.00, which also earned Binusian Award and Binus Award of Excellence); and Junario Wibawa (GPA: 3.94). #bestgraduates # wisuda54 #sis #systeminformation #informationsystem #sis #GreaterNusantara #summacumlaude #schoolofis #schollisbinus #Binusian #binus </p>
+            <h1 class="title">Mahasiswa/i Berprestasi</h1>
+            <h2 class="sub_title">Pembuatan Film Terbaik</h2>
+            <p class="description">Film Waeyo besutan tim Piyona Cinematic dari Universitas Multimedia Nusantara berhasil menjadi Film Terbaik Kategori Mahasiswa di Festival Film Banten 2017</p>
           </div>
         </div>
       </div>
