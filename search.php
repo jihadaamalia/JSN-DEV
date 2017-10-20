@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html ng-app="SortApp" ng-controller="SortCtrl">
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -10,6 +11,23 @@
     <title>Search Universitas</title>
 
     <?php require('head.php'); ?>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+    <script type="text/javascript">
+        var App = angular.module('SortApp', []);
+        App.controller('SortCtrl', [ '$scope','$http',function($scope, $http) {
+
+          $scope.displayData = function(){  //data ts
+                  $http.get("get_all_uni.php")
+                  .then(function (response){  
+                    $scope.unis = response.data;
+                  console.log($scope.unis);
+                  });  
+              };
+              $scope.displayData();
+      }]);
+      </script>
 
   </head>
 
@@ -20,7 +38,7 @@
         <a class="navbar-brand" href="home.php">
           <img src="asset/images/Untitled-1.png" width="50" height="50" alt="">
         </a>
-        <input type="text" class="form-control" placeholder="Search">
+        <input ng-model="myFilter" type="text" class="form-control" placeholder="Search">
         <span class="input-group-btn">
           <button class="btn btn-secondary" type="button">Go</button>
         </span>
@@ -58,7 +76,27 @@
     </section>
  -->
     <main>
+
       <section>
+        <div class="container">
+          <h2 class="section-title">Hasil Pencarian</h2>
+          <ul class="grid cs-style-3"> 
+            <div ng-repeat ='uni in unis | filter: myFilter' >
+            <li>
+              <figure>
+                <img ng-src="{{uni['foto_univ']}}">
+                <figcaption>
+                  <h5>{{uni['nama_univ']}}</h5>
+                  <a class="d-flex justify-content-center" href="view.php">Selengkapnya</a>
+                </figcaption>
+              </figure>
+            </li>
+            </div>
+          </ul>
+              
+      </section>
+
+      <section >
         <div class="container">
           <h2 class="section-title">Hasil Pencarian</h2>
           <ul class="grid cs-style-3">
