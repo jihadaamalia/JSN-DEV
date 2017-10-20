@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="asset/images/Untitled-1.png">
+    <link rel="shortcut icon" href="asset/images/logo.png">
 
     <title>Search Universitas</title>
 
@@ -18,7 +18,7 @@
     <nav class="navbar navbar-light" style="background-color: #f7c331;">
       <div class="input-group">
         <a class="navbar-brand" href="home.php">
-          <img src="asset/images/Untitled-1.png" width="50" height="50" alt="">
+          <img src="asset/images/logo.png" width="50" height="50" alt="">
         </a>
         <input type="text" class="form-control" placeholder="Search">
         <span class="input-group-btn">
@@ -26,22 +26,28 @@
         </span>
       </div>
       <div class="row">
-      <div class="dropdown" style="margin:15px; width:300px;">
+        <div class="col-md-6">
+          <div style="float:right">
+            <div class="dropdown" style="margin:15px; width:300px;">
         <button class="btn btn-secondary dropdown-toggle" style="width:300px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Universitas  </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="#">Universitas Binus</a>
           <a class="dropdown-item" href="#">Universitas Trisaksi</a>
           <a class="dropdown-item" href="#">Universitas Tarumanegara</a>
+        </div></div>
+          </div>
         </div>
-      </div>
-      <div class="dropdown" style="margin:15px; width:300px;">
+        <div class="col-md-6">
+          <div style="float:left">
+            <div class="dropdown" style="margin:15px; width:300px;">
         <button class="btn btn-secondary dropdown-toggle" style="width:300px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Jurusan  </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="#">Universitas Binus</a>
           <a class="dropdown-item" href="#">Universitas Trisaksi</a>
           <a class="dropdown-item" href="#">Universitas Tarumanegara</a>
+        </div></div>
+          </div>
         </div>
-      </div>
       </div>
     </nav>
   <!-- header -->
@@ -105,35 +111,29 @@
     </main>
 
 <footer>
-  <section>
+    <section>
     <div id= "myFooter" class="container">
       <div class="row">
         <div class="col-sm-3">
-          <h2 class="logo"><a href="#"> LOGO </a></h2>
+          <h2 class="logo"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></h2>
         </div>
         <div class="col-sm-2">
-          <h5>Get started</h5>
+          <h5>Navigate</h5>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sign up</a></li>
-            <li><a href="#">Downloads</a></li>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="search.php">University</a></li>
           </ul>
         </div>
-        <div class="col-sm-2">
-          <h5>About us</h5>
-          <ul>
-            <li><a href="#">Company Information</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Reviews</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-2">
-          <h5>Support</h5>
-          <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Help desk</a></li>
-            <li><a href="#">Forums</a></li>
-          </ul>
+        <div class="col-sm-4">
+          <h5>Supported By</h5>
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="asset/images/logo WDC.png" style="width:100px; height: 100px; padding:10px;">
+            </div>
+            <div class="col-sm-6">
+              <img src="asset/images/logo HIMSISFO.png" style="width:100px; height: 100px; padding:10px;">
+            </div>
+          </div>
         </div>
         <div class="col-sm-3">
           <div class="social-networks">
@@ -141,13 +141,13 @@
             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
             <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
           </div>
-        <button type="button" class="btn btn-default">Contact us</button>
+          <button href="mailto:contact@jsn-dev.com?subject=Information%2E%2E%2E%20%28DD%2FMM%2FYYYY%29" type="button" class="btn btn-default">Contact us</button>
         </div>
       </div>
     </div>
-      <div class="footer-copyright">
-        <center>  <p>Supported by JSN-Dev © 2017</p></center>
-      </div>
+    <div class="footer-copyright">
+      <center><p>© 2017 JSN Developers </p></center>
+    </div>
   </section>
 </footer>
 

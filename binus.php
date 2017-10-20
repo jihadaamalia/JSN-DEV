@@ -200,7 +200,6 @@
 <div class="main">
   <div class="text-center">
     <h2>SCHEDULE</h2>
-    <h4>Choose a payment plan that works for you</h4>
   </div>
     <section id="cd-timeline" class="cd-container slideanim">
     <div class="cd-timeline-block slideanim">
@@ -292,7 +291,6 @@
 <div id="jalur" class="container-fluid">
   <div class="text-center">
     <h2>ADMISSION</h2>
-    <h4>Choose a payment plan that works for you</h4>
   </div>
   <div class="row slideanim">   
     <div class="col-sm-6 col-xs-12">
@@ -343,36 +341,29 @@
   <!-- <div class="container">
     <img src="">
   </div> -->
-
   <section>
     <div id= "myFooter" class="container">
       <div class="row">
         <div class="col-sm-3">
-          <h2 class="logo"><a href="#"> LOGO </a></h2>
+          <h2 class="logo"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></h2>
         </div>
         <div class="col-sm-2">
-          <h5>Get started</h5>
+          <h5>Navigate</h5>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sign up</a></li>
-            <li><a href="#">Downloads</a></li>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="search.php">University</a></li>
           </ul>
         </div>
-        <div class="col-sm-2">
-          <h5>About us</h5>
-          <ul>
-            <li><a href="#">Company Information</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Reviews</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-2">
-          <h5>Support</h5>
-          <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Help desk</a></li>
-            <li><a href="#">Forums</a></li>
-          </ul>
+        <div class="col-sm-4">
+          <h5>Supported By</h5>
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="asset/images/logo WDC.png" style="width:100px; height: 100px; padding:10px;">
+            </div>
+            <div class="col-sm-6">
+              <img src="asset/images/logo HIMSISFO.png" style="width:100px; height: 100px; padding:10px;">
+            </div>
+          </div>
         </div>
         <div class="col-sm-3">
           <div class="social-networks">
@@ -380,13 +371,13 @@
             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
             <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
           </div>
-        <button type="button" class="btn btn-default">Contact us</button>
+          <button href="mailto:contact@jsn-dev.com?subject=Information%2E%2E%2E%20%28DD%2FMM%2FYYYY%29" type="button" class="btn btn-default">Contact us</button>
         </div>
       </div>
     </div>
-      <div class="footer-copyright">
-        <center>  <p>Supported by JSN-Dev © 2017</p></center>
-      </div>
+    <div class="footer-copyright">
+      <center><p>© 2017 JSN Developers </p></center>
+    </div>
   </section>
 </footer>
 
