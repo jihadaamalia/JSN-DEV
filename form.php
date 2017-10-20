@@ -11,10 +11,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="stylesheet/main.css">
 	<link rel="shortcut icon" href="../favicon.ico">
+
 	<link rel="stylesheet" type="text/css" href="dist/css/normalize.css" />
+
 	<!-- <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" /> -->
 	<link rel="stylesheet" type="text/css" href="dist/css/form.css" />
 	<link rel="stylesheet" type="text/css" href="dist/css/selected.css" />
+
 	
 	<script src="dist/js/modernizr.custom.js"></script>
 
@@ -65,6 +68,7 @@
 	<div class="container">
 		<div class="content">
 			<header class="codrops-header">
+				<a href="view.php"><p class="nav-link" style="text-align: left; padding-left: 30px; color: #404d5b">Back To Home</p></a>
 				<h1>Registration Form</h1>
 			</header>
 			<form method="post" action="payment.php">
@@ -100,7 +104,7 @@
 						</label>
 					</span><br>
 					<span class="input input--hoshi">
-						<input required class="input__field input__field--hoshi" name="religion" type="text" id="input-6" />
+						<input class="input__field input__field--hoshi" name="religion" type="text" id="input-6" />
 						<label class="input__label input__label--hoshi input__label--hoshi-color-2" for="input-6">
 							<span class="input__label-content input__label-content--hoshi">Religion</span>
 						</label>

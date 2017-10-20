@@ -11,6 +11,7 @@
 	<link rel="shortcut icon" href="../favicon.ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="stylesheet/main.css">
+
 	<link rel="stylesheet" type="text/css" href="dist/css/default_payment.css" />
 	<link rel="stylesheet" type="text/css" href="dist/css/payment1.css" />
 
@@ -25,7 +26,7 @@ $dbname = "pendaftaran_kampus";
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+	die("Connection failed: " . $conn->connect_error);
 }
 
 if ($_POST['Submit'] == "Submit") {
@@ -48,6 +49,7 @@ $sql = mysqli_query($conn, "INSERT INTO form_pendaftar (nama_pendaftar, alamat_p
 	<div class="container">
 		<header class="clearfix">
 
+			<a href="form.php"><h4 style="color:#F7882F; float: right; ">Back To Registration</h4></a>
 			<h1 style="color:#F7882F; ">Payment Method</h1>
 
 		</header>	
@@ -220,45 +222,45 @@ $sql = mysqli_query($conn, "INSERT INTO form_pendaftar (nama_pendaftar, alamat_p
 </div>
 </div>
 <footer>
-			<section>
-		        <div id= "myFooter" class="container">
-		            <div class="row">
-		                <div class="col-sm-3">
-		                    <h2 class="logo"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></h2>
-		                </div>
-		                <div class="col-sm-2">
-		                    <h5>Navigate</h5>
-		                    <ul>
-		                        <li><a href="home.php">Home</a></li>
-		                        <li><a href="search.php">University</a></li>
-		                    </ul>
-		                </div>
-		                <div class="col-sm-4">
-		                    <h5>Supported By</h5>
-							<div class="row">
-								<div class="col-sm-6">
-									<img src="asset/images/logo WDC.png" style="width:100px; height: 100px; padding:10px;">
-								</div>
-								<div class="col-sm-6">
-									<img src="asset/images/logo HIMSISFO.png" style="width:100px; height: 100px; padding:10px;">
-								</div>
-							</div>
-		                </div>
-		                <div class="col-sm-3">
-		                    <div class="social-networks">
-		                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-		                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-		                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-		                    </div>
-		                    <button href="mailto:contact@jsn-dev.com?subject=Information%2E%2E%2E%20%28DD%2FMM%2FYYYY%29" type="button" class="btn btn-default">Contact us</button>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="footer-copyright">
-		            <center><p>© 2017 JSN Developers </p></center>
-		        </div>
-			</section>
-		</footer>
+	<section>
+		<div id= "myFooter" class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<h2 class="logo"><a href="#"><img src="asset/images/logo.png" style="width:120px; height: 120px; margin: 30px 0px;"></a></h2>
+				</div>
+				<div class="col-sm-2">
+					<h5>Navigate</h5>
+					<ul>
+						<li><a href="home.php">Home</a></li>
+						<li><a href="search.php">University</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<h5>Supported By</h5>
+					<div class="row">
+						<div class="col-sm-6">
+							<img src="asset/images/logo WDC.png" style="width:100px; height: 100px; padding:10px;">
+						</div>
+						<div class="col-sm-6">
+							<img src="asset/images/logo HIMSISFO.png" style="width:100px; height: 100px; padding:10px;">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="social-networks">
+						<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+					</div>
+					<button href="mailto:contact@jsn-dev.com?subject=Information%2E%2E%2E%20%28DD%2FMM%2FYYYY%29" type="button" class="btn btn-default">Contact us</button>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<center><p>© 2017 JSN Developers </p></center>
+		</div>
+	</section>
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="dist/js/jquery.cbpNTAccordion.min.js"></script>
 <script>
