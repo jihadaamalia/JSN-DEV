@@ -12,32 +12,28 @@
 
 	</head>
 
-	<body>
-		<header>
-			<section>
-				<div class="container">
-				  	<div class="row">
-						<div class="col-md-12 pull-right ">
-							<nav class="navbar navbar-toggleable-md">
-								<button class="navbar-button navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-									<span class="navbar-toggler-icon"></span>
-								</button>
-							  	<a class="navbar-brand" href="#"><img src="asset/images/university-graduate-hat.png" width="50px;" /></a>
-							  	<div class="navbar-collapse collapse dual-collapse underline-nav" id="navbarNav">
-							        <ul class="navbar-nav ml-auto">
-							            <li class="nav-item">
-							                <a class="nav-link" href="#">Home</a>
-							                <span></span>
-							            </li>
-							            <li class="nav-item">
-							                <a class="nav-link" href="#">Universities</a>
-							                <span></span>
-							            </li>
-							        </ul>
-							    </div>
-							</nav>
-						</div> 
-					</div>
+    <body>         <header>             <section>                 <div
+class="container">                     <div class="row">
+<div class="col-md-12 pull-right ">                             <nav
+class="navbar navbar-toggleable-md">
+<button class="navbar-button navbar-toggler navbar-toggler-right"
+type="button" data-toggle="collapse" data-target="#navbarNav" aria-
+controls="navbarNav" aria-expanded="false" aria-label="Toggle
+navigation">                                     <span class="navbar-
+toggler-icon"></span>                                 </button>
+<a class="navbar-brand" href="#"><img src="asset/images/university-
+graduate-hat.png" width="50px;" /></a>
+<div class="navbar-collapse collapse dual-collapse underline-nav"
+id="navbarNav">                                     <ul class="navbar-
+nav ml-auto">                                         <li class="nav-
+item">                                             <a class="nav-link"
+href="#">Home</a>
+<span></span>                                         </li>
+<li class="nav-item">                                             <a
+class="nav-link" href="#">Universities</a>
+<span></span>                                         </li>
+</ul>                                 </div>
+</nav>                         </div>                      </div>
 					
 					<div class="headline" >
 						<h1 class="headline-text">APPLY NOW.</h1>
